@@ -17,6 +17,7 @@ RUN apt update \
         salt-master \
         salt-minion \
         salt-api \
+        salt-ssh \
         python-pygit2 \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
